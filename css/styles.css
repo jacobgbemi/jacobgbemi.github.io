@@ -28,10 +28,6 @@ html {
 	}
 }
 
-.icons-social i {
-	font-size: 3em;
-}
-
 /* Custom Styles */
 
 main {
@@ -56,12 +52,18 @@ main > .tagline {
 }
 
 .icons-social i {
+	font-size: 1.5rem;
 	padding: 10px;
 }
 
 .icons-social a {
   text-decoration: none;
+  font-size: 0.5rem;
 }
+
+/* .icons-social aside {
+	font-size: 1.5rem;
+  } */
 
 .devto {
 	margin-bottom: -0.20rem;
@@ -72,4 +74,32 @@ main > .tagline {
 	margin-left: 0.675rem;;
 	width: 2.65rem;
 	height: 2.65rem;
+}
+
+.navv {
+	background-color: white;
+	height: 2.1rem;
+	text-align: left;
+	vertical-align: center;
+	
+}
+
+.navv a {
+	display: inline;
+	color: green;
+	text-decoration: none;
+	padding-left: 2rem;
+}
+
+.right-float {
+	float: right;
+	margin-right: 2rem;
+} 
+
+.navv a:hover, nav a:visited, nav a:active {
+	color: red;
+}
+
+.image-article {
+	text-align: left;
 }
